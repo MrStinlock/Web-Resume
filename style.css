@@ -1,0 +1,146 @@
+body {
+	background: #393E46;
+	font-family: Segoe UI;
+	font-size: 19px;
+}
+
+li {list-style: none;}
+
+.main-block {
+	position: relative;
+
+	margin: 0 auto;
+	margin-top: 150px;
+
+	width: 1200px;
+	height: 1400px;
+
+	background: #EEEEEE;
+	box-shadow: 0 0 3vh 1vh #0F0F0F;
+}
+
+.left-block {
+	display: inline-block;
+	position: absolute;
+	z-index: 2;
+
+	width: 320px;
+	height: 1400px;
+	padding: 0;
+	margin-right: 0;
+
+	border-right: 20px solid #00ADB5;
+	background: #222831;
+	color: #EEEEEE;
+}
+
+#photo-left-menu {
+	width: 320px;
+	height: 320px;
+
+	outline: 0.3vh solid #14171C;
+	outline-offset: -0.3vh;
+}
+
+.text-left-block {
+	display: block;
+	width: 300px;
+	padding-top: 30px;
+}
+
+.contacts-name {	
+	margin: 0 30px;
+	padding-bottom: 7px;
+
+	font-size: 23px;
+	letter-spacing: 6px;
+	border-bottom: 3px solid white;
+	font-weight: bold;
+}
+
+.contacts-item {
+	margin-top: 20px;
+	letter-spacing: 1px;
+}
+
+#ci1 { list-style-image: url(img/phone.png); margin-left: 25px;}
+
+#ci2 { list-style-image: url(img/8818556ce6ba4bc9302dca9ec1979591.png); margin-left: 25px;}
+
+#ci3 { list-style-image: url(img/VK_Compact_Logo.png); margin-left: 25px;}
+
+#ci3 a:hover {
+	color: #0077ff;
+}
+
+#ci3-a { text-decoration: none; color: #EEEEEE; }
+
+#selector-name {
+	margin-top: 50px;
+}
+
+progress {
+	width: 200px;
+}
+
+.right-block {
+	display: inline-block;
+	position: absolute;
+
+	width: 860px;
+	height: 1400px;
+	right: 0;
+
+	font-family: Segoe UI;
+	background: #EEEEEE;
+}
+
+#name-head-inf {
+	display: inline-block; 
+	padding: 5px 0; 
+
+	border-bottom: 3px solid black; 
+	font-size: 32px;
+	font-weight: bold; 
+}
+
+#header-information {
+	width: 750px;
+	height: 260px;
+
+	padding: 30px;
+	padding-left: 60px;
+
+	font-size: 26px;
+}
+
+#right-block-name {
+	padding-left: 60px;
+
+	height: 110px;
+
+	color: #151e33;
+	font-family: Franklin Gothic;
+	font-size: 50px;
+	letter-spacing: 5px;
+	background: #00ADB5;
+}
+
+.main-information {
+	height: 890px;
+	font-size: 25px;
+	padding: 40px;
+	padding-left: 60px;
+}
+
+#main-information-list {
+	margin-left: 40px;
+	padding-top: 7px;
+
+	letter-spacing: 1px;
+	list-style-type: square;
+}
+
+#main-information-list-item {
+	margin-top: 7px;
+}
